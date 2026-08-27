@@ -12,7 +12,7 @@ be used in the model. Every family function has a link argument allowing
 users to specify the link function to be applied on the response variable.
 If not specified, default links are used. For details of all supported
 families see \code{\link[brms:brmsfamily]{brms::brmsfamily()}}. Commonly used, such as
-\code{\link[brms:lognormal]{brms::lognormal()}}, are also
+\code{\link[brms:brmsfamily]{brms::lognormal()}}, are also
 reexported as part of \code{epidist}.}
 
 \item{...}{Additional arguments passed to \code{fn} method.}
@@ -22,7 +22,7 @@ A \code{brmsprior} object, or \code{NULL} when the model adds no priors.
 }
 \description{
 This function contains \code{brms} prior distributions which are specific to
-particular likelihood families e.g. \code{\link[brms:lognormal]{brms::lognormal()}}.
+particular likelihood families e.g. \code{\link[brms:brmsfamily]{brms::lognormal()}}.
 }
 \seealso{
 Other prior:
